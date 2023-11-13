@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+  <!-- HTML Meta Tags -->
+  <title>MyApp Valoración Empleados</title>
+  <meta name="description" content="Aplicación MyCompany S.L. - Sistema de Valoración de Empleados">
+
+ 
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body class="b-full">
+    <header class="b-header">
+        <img width="40%" id="logo"  src="_resources/mylogo.gif" alt="MyCompany S.L. Logo">
+    </header>
+    <main>
+        <form>
+            <fieldset class="b-form">
+                <div class="input-wrapper">
+                    <label class="b-form-element">Usuario</label>
+                    <input class="b-form-element" type="email" name="EMAIL" placeholder="Email de acceso"><img class="user-icon" src="./_resources/icons8-usuario-30.png" alt="user">
+                </div>
+                <div class="input-wrapper">
+                    <label class="b-form-element">Contraseña</label>
+                    <input class="b-form-element" id="password" type="password" name="CONSTRASENA"><img class="visible-icon" src="./_resources/icons8-visible-30.png" alt="pssw">
+                </div>
+                <a href="pages/auth/recuperacion.html">He olvidado mi contraseña</a>
+                <a href="pages/administracion.html" class="b-form-element button">Acceso Administrador</a>
+                <a href="pages/empleado.html" class="b-form-element button">Acceso Supervisor</a>
+            </fieldset>
+        </form>
+        
+    </main>
+    <footer>
+       <h1 class="index-title">MY COMPANY APP</h1>
+    </footer>
+</body>
+<script src="js/main.js"></script>
+</html>
